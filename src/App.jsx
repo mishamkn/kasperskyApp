@@ -12,7 +12,7 @@ const App = () => {
     const file = e.target.files[0];
 
     const reader = new FileReader();
-    reader.readAsText(file, 'UTF-8npm git ');
+    reader.readAsText(file, 'UTF-8');
 
     reader.onload = () => {
       const lines = reader.result.split('\n');
