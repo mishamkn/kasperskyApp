@@ -12,7 +12,7 @@ const App = () => {
     const file = e.target.files[0];
 
     const reader = new FileReader();
-    reader.readAsText(file, 'windows-1251');
+    reader.readAsText(file, 'UTF-8npm git ');
 
     reader.onload = () => {
       const lines = reader.result.split('\n');
