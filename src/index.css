@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.table {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: 'slnt' 0;
+  text-align: center;
+}
+
+.not_highlight {
+  cursor: pointer;
+}
+
+.highlight {
+  background: rgb(0, 168, 142);
+  border-radius: 8px;
+  color: aliceblue;
+  cursor: pointer;
+}
