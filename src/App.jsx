@@ -20,6 +20,7 @@ const App = () => {
         id: index,
         sentence: line.split(' ').map((word) => ({ text: word, selected: false })),
       }));
+
       setData(parsedData);
     };
   };
@@ -35,6 +36,7 @@ const App = () => {
       );
     } else {
       newSelectedWords[sentenceId].push(wordIndex);
+      newSelectedWords[sentenceId].sort((a, b) => a - b);
     }
     setSelectedWords(newSelectedWords);
   };
